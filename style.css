@@ -77,39 +77,123 @@ header .buttons {
 header .buttons img {
     margin-left: 24px;
 }
+main{
+    display: flex;
+}
 
 main section {
     margin-top: 20px;
     margin-left: 30px;
-    width: 940px;
+    width: 945px;
 }
 
-main section .container .container-avatar {
+main section .container-information  {
     width: 100%;
-    display: flex;
     margin-top: 15px;
-    
-    
-}
-main section .container .container-avatar .buttons{
     display: flex;
+    align-items: center;
     
+       
 }
-main section .container .container-avatar button{
+main section .container .avatar{
+
+    display: flex;
+}
+
+main section .container-information{
+    margin-bottom: 10px;
+}
+main section .container-information .button{
+    width: 30%;
     
-    width: 109px;
-    height: 36px;
+   
+}
+main section .container-information .button button{
+background-color: #e7e7e7;
+width: 120px;
+height: 36px;
+border-radius: 50px;
+border: none;
+margin-left: 12px;
+padding:  0 10px;
+font-size: medium;
 }
 
-
-
-main section .container-information {
-    width: 100%;
-    margin-top: 20px;
+main section .container-information .buttons{
     display: flex;
     justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+main section .container-information .buttons .thumbs{
+display: flex;
+padding: 10px;
+
+}
+main section .container-information .buttons .thumbs .like{
+display: flex;
+width: 119px;
+height: 40px;
+background-color: #e7e7e7;
+
+border-radius: 15px 0 0 15px;
+padding: 5px;
+gap: 8px;
+
+
+} 
+main section .container-information .buttons .thumbs .dislike{
+background-color: #e7e7e7;
+height: 40px;
+padding: 5px;
+border-radius: 0 15px 15px 0;
 }
 
-main section .container-information .container-like {
+main section .container-information .buttons .compartilhar{
     display: flex;
+    gap: 10px;
+}
+
+main section .container .description {
+    margin-top: 10px;
+}
+
+main section .container .description p {
+color: #515151;
+
+}
+
+main aside{
+    margin-top: 20px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+main aside .container-content {
+display: flex;
+width: 90%;
+
+}
+main aside .container-content img{
+margin-bottom: 10px;
+}
+
+
+main aside .container-content .content {
+margin-left: 10px;
+display: flex;
+flex-direction: column;
+
+}
+main aside .container-content .content .p {
+margin-top: 10px;
+}
+
+main aside .container-content .content p{
+    color: #515151;
+}
+
+main aside .container-content .content h3{
+    width: 70%;
 }
